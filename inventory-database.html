@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='UTF-8'>
+    <title>Inventory Database</title>
+    <script src="inventory-database.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    <table class='inventory-table'>
+        <thead>
+            <tr class='heading-row'>
+                <th>ID</th>
+                <th>Product Title</th>
+                <th>Inventory Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <form class='add-form'>
+        <p><strong>Add products</strong></p>
+        <input type='text' name='id' placeholder='Product ID'>
+        <input type='text' name='title' placeholder='Product title'>
+        <input type='number' name='quantity' min='0' placeholder='Inventory quantity' required>
+        <input type='submit' value='Add'>
+    </form>
+
+    <form class='edit-form'>
+        <p><strong>Edit products</strong></p>
+        <input type='text' name='id' placeholder='Product ID'>
+        <input type='number' name='quantity' min='0' placeholder='Inventory quantity' required>
+        <input type='submit' value='Edit'>
+    </form>
+
+    <form class='delete-form'>
+        <p><strong>Delete products</strong></p>
+        <input type='text' name='id' placeholder='Product ID'>
+        <input type='submit' value='Delete'>
+    </form>
+
+    <div class='csv-wrapper'>
+        <input class='generate-csv' type='submit' value='Generate CSV file'>
+    </div>
+</body>
+
+<style>
+    table,
+    tr,
+    th,
+    td {
+        border: 1px solid black;
+    }
+
+    th,
+    td {
+        padding: 2px 5px;
+    }
+
+    form,
+    .csv-wrapper {
+        margin-top: 2em;
+    }
+</style>
+
+</html>
