@@ -3,7 +3,7 @@ My goal was to create a simple, functional inventory database tool using vanilla
  * Database to have CRUD functionality with a simple, straightforward interface
  * CSV export functionality 
  * Split up tasks into modular functions for easier debugging
- * I used localStorage to store the inventory tablem 
+ * I used localStorage to store the inventory table
 
 # How to navigate this project
 I deployed this on GitHub Pages for demonstration.
