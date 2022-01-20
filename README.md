@@ -13,3 +13,5 @@ I deployed this on GitHub Pages for demonstration.
 
 # Why I built the project this way
 Javascript is my primary programming language, and I wanted to create this using only Vanilla JS to test my fundamental knowledge, rather than using pre-existing libraries.
+
+I'm currently looking to learn more about Apollo and Node.JS to further my development skills.
